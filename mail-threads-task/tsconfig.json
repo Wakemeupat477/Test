@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "noEmit": true,
+    "target": "ESNext",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "rewriteRelativeImportExtensions": true,
+    "allowImportingTsExtensions": true,
+    "erasableSyntaxOnly": true,
+    "verbatimModuleSyntax": true,
+    "strict": true,
+    "lib": [
+      "ES2024"
+    ],
+    "skipLibCheck": true
+  },
+  "include": [
+    "src/**/*.mts",
+    "tests/**/*.mts"
+  ]
+}
